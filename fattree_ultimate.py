@@ -31,7 +31,7 @@ class MyTopo(Topo):
         #edge_switch_number = 8; #optional
         #host_per_edge = 2;
         
-	radix = 8;              #number of ports per switch
+	radix = 8;              #number of ports per switch, Edit the port number here in multiples of 4
 
 	#h1 = 10 #(Mbps) a host to access switch link capacity, remember in mininet 2.0.0 you can't
 	       # exceed 1Gbps link capacity
